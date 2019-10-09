@@ -18,11 +18,12 @@ bhat2 = bhat[2]
 sigma_hat_square = sum(e_hat.^2)/(n-2)
 sig_B = inv( X' * X ) * sigma_hat_square
 t_value = (bhat2 - b0[2])  /sqrt( sig_B[2,2] )
-println(t_value)
+# println(t_value)
 
 y = rand(Chisq(3), 1000)
 
-using KernelDensity
-using PyPlot
-kd = kde(y)
-plot(kd) # plot can only be done in IJulia notebook
+# plot can only be done in IJulia notebook
+# using KernelDensity
+# using PyPlot
+# kd = kde(y)
+# plot(kd)

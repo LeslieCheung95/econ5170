@@ -1,13 +1,17 @@
 ## LyX
 *.lyx~
 *.ipynb_checkpoints
+*_cache
+*_files
+
+
 ## SWP
 *.bak
 *.aaa
 
 ## R
+*.sav
 *.Rhistory
-*.Rdata
 __packages
 *.rdb
 *.rdx
@@ -135,3 +139,14 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+book_version/_book/search_index.json
+book_version/_book/
+book_version/_bookdown_files/
+.Rproj.user
+Julia_scripts
+Jupyter_notebooks
+Lecture_optimization/
+Lecture_advanced_R/
+Lecture_simulation/
+Lec_bootstrap/
+book_version/AAPL.csv
